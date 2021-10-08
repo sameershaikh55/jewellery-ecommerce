@@ -279,13 +279,13 @@ body {
 // <!-- ============ HERO START ================ -->
 .hero_container {
     background: url(../images/hero.svg);
-    height: 100vh;
+    height: calc(100vh - 180px);
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
     .text_content {
         height: 100%;
-        top: 25%;
+        top: 30%;
         left: 0%;
         h1 {
             font-size: 3rem;
@@ -300,3 +300,36 @@ body {
 }
 
 // <!-- ============ HERO END ================ -->
+// <!-- ============ ABOUT START ================ -->
+.about_container {
+    button {
+        border: 1px solid $color3;
+        padding: 0.6rem 2rem;
+        background-color: transparent;
+        color: $color3;
+    }
+}
+
+// <!-- ============ ABOUT END ================ -->
+// <!-- ============ ARRIVAL START ================ -->
+.arrival_cont {
+    margin-top: 5rem;
+}
+
+// <!-- ============ ARRIVAL END ================ -->
+// <!-- ============ SLIDER START ================ -->
+.slider_container {
+    margin-top: -3.5rem;
+    .swiper-slide img {
+        display: block;
+        width: 50%;
+        margin: auto;
+        height: 100%;
+        object-fit: contain;
+    }
+    .swiper-button-next {
+        position: absolute;
+    }
+}
+
+// <!-- ============ SLIDER END ================ -->

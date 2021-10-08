@@ -274,7 +274,7 @@ body {
 
 .hero_container {
   background: url(../images/hero.svg);
-  height: 100vh;
+  height: calc(100vh - 180px);
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -282,7 +282,7 @@ body {
 
 .hero_container .text_content {
   height: 100%;
-  top: 25%;
+  top: 30%;
   left: 0%;
 }
 
@@ -295,5 +295,33 @@ body {
   padding: 0.6rem 2rem;
   background-color: transparent;
   color: #fff;
+}
+
+.about_container button {
+  border: 1px solid #49341c;
+  padding: 0.6rem 2rem;
+  background-color: transparent;
+  color: #49341c;
+}
+
+.arrival_cont {
+  margin-top: 5rem;
+}
+
+.slider_container {
+  margin-top: -3.5rem;
+}
+
+.slider_container .swiper-slide img {
+  display: block;
+  width: 50%;
+  margin: auto;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.slider_container .swiper-button-next {
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */
